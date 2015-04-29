@@ -28,7 +28,7 @@ if(isset($_POST['sub_id'])&& $_POST['sub_id']!='')
 	if(mysql_num_rows($sql)>0)
 {
 	$ary=mysql_fetch_array($sql);
-	$Price=$ary['Price'];
+	//$Price=$ary['Price'];
 	 echo $ary['Price']; 
 }
 
